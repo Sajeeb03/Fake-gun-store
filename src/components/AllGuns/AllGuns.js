@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Gun from '../Gun/Gun';
 
 const AllGuns = ({ counterIncrease }) => {
-    console.log(counterIncrease)
+    // console.log(counterIncrease)
     const [allGuns, setAllGuns] = useState([]);
     useEffect(() => {
         fetch(`https://raw.githubusercontent.com/mir-hussain/guns/main/data.json`)
